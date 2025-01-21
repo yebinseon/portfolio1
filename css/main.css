@@ -1,0 +1,15 @@
+body {
+	margin: 0px;
+}
+
+.container {
+	width: 100%;
+	height: 500px;
+	background: linear-gradient(#4b89d4, #734abe);
+}
+
+.title {
+	color: white;
+	font-size: 30px;
+	margin: 0px;
+}
