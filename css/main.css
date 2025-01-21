@@ -123,3 +123,99 @@ body {
 	align-items: center;
 	gap: 100px;
 }
+
+.container4 {
+	height: 100px;
+	margin-top: 40px;
+}
+
+.container4 p,
+h2 {
+	margin: 0px;
+	text-align: center;
+}
+
+.container5 {
+	height: 900px;
+}
+
+.images-box1 {
+	height: 400px;
+	width: 1400px;
+	position: relative;
+	margin-left: 250px;
+}
+.images-box2 {
+	height: 400px;
+	width: 1400px;
+	position: relative;
+	margin-left: 250px;
+}
+
+.image-box1 {
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	background-image: url("../portfolio-1.jpg");
+	background-repeat: no-repeat;
+	background-position: left;
+	float: left;
+}
+
+.image-box2 {
+	height: 100%;
+	width: 50%;
+	background-image: url("../portfolio-2.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	float: right;
+}
+
+.image-box3 {
+	height: 100%;
+	width: 50%;
+	background-image: url("../portfolio-3.jpg");
+	background-repeat: no-repeat;
+	background-position: left;
+	float: left;
+}
+
+.image-box4 {
+	height: 100%;
+	width: 50%;
+	background-image: url("../portfolio-4.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	float: right;
+}
+
+.text-box2 {
+	margin: 40px;
+}
+
+.share-container {
+	height: 200px;
+}
+
+.share-icon-box {
+	width: 100px;
+	height: 100px;
+	background-color: #4e61c0;
+	border-radius: 100px;
+	position: relative;
+	float: left;
+	margin-left: 100px;
+}
+
+.share-icon {
+	font-size: 40px;
+	color: white;
+	position: absolute;
+	top: 50%; /* 수직 중심 */
+	left: 50%; /* 가로 중심 */
+	transform: translate(-50%, -50%);
+}
+
+.shares-box {
+	margin-left: 600px;
+}
