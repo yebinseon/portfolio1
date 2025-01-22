@@ -36,6 +36,10 @@ body {
 	background-color: #444445;
 }
 
+.button:hover {
+	background-color: gray;
+}
+
 .head-button-box {
 	margin-left: 115px;
 	margin-top: -2px;
@@ -160,6 +164,11 @@ h2 {
 	background-repeat: no-repeat;
 	background-position: left;
 	float: left;
+	transition: transform 0.5s;
+}
+
+.image-box1:hover {
+	transform: scale(0.9);
 }
 
 .image-box2 {
@@ -169,6 +178,11 @@ h2 {
 	background-repeat: no-repeat;
 	background-position: right;
 	float: right;
+	transition: transform 0.5s;
+}
+
+.image-box2:hover {
+	transform: scale(0.9);
 }
 
 .image-box3 {
@@ -178,6 +192,11 @@ h2 {
 	background-repeat: no-repeat;
 	background-position: left;
 	float: left;
+	transition: transform 0.5s;
+}
+
+.image-box3:hover {
+	transform: scale(0.9);
 }
 
 .image-box4 {
@@ -187,6 +206,11 @@ h2 {
 	background-repeat: no-repeat;
 	background-position: right;
 	float: right;
+	transition: transform 0.5s;
+}
+
+.image-box4:hover {
+	transform: scale(0.9);
 }
 
 .text-box2 {
